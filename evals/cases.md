@@ -54,6 +54,8 @@ Pass when (and only when) the output declines to characterise the writer at all,
 
 Record runs here, newest first, as `YYYY-MM-DD — <case> — pass/fail — note`.
 
+Raw outputs for each run are kept in `evals/runs/`.
+
 2026-09-04 — 01-late-reply — pass — negative valence with counter-evidence present ("I understand that", "whenever you get a chance"). Attention read 8:3, matching the corrected expected value. Note: the protocol expects past-dominant temporal orientation; the run read it mixed, 5 past to 5 present. The run's count is defensible on inspection, so the expected value is the suspect one.
 
 2026-09-04 — 02-status-update — pass — emotion reported as `none`, no affect invented for transactional writing. Valence neutral, arousal calm, stance neutral, all quoted.
@@ -67,4 +69,3 @@ Record runs here, newest first, as `YYYY-MM-DD — <case> — pass/fail — note
 2026-09-04 — cross-cutting observation — `stance` was reported on all five fixtures and dropped on none, though `dimensions.md` says it "earns a row only when the evidence is unambiguous, and it is dropped otherwise". It was reported at low confidence every time, which is honest, but the drop behaviour the reference describes is not happening. Carried to the final review rather than fixed here.
 
 2026-09-04 — run summary — four of five cases pass. Case 04 fails on the strength of the length moderator, not on its direction.
-
