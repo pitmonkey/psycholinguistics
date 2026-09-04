@@ -1,0 +1,5 @@
+{
+  "name": "psycholinguistics",
+  "description": "Reads a piece of writing and reports what its language is doing - affect, attention, certainty, temporal focus, stance and style - with per-dimension confidence. Reports readings of text, never trait claims about the writer.",
+  "version": "0.1.0"
+}
