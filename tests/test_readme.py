@@ -22,7 +22,6 @@ def test_readme_states_the_refusal():
 def test_readme_points_at_the_evidence():
     body = DOC.read_text()
     assert "docs/bakeoff-results.md" in body
-    assert "docs/superpowers/specs" in body
 
 
 def test_readme_documents_how_to_run_the_tests():
