@@ -22,13 +22,15 @@ Each moderator below is a reason to lower a confidence or drop a row.
 
 `medium` — Tier 2 default, when at least one unambiguous quoted span supports the reading and no moderator applies.
 
-`low` — Tier 2 where the evidence is thin, where a moderator applies, or for `stance` in every case.
+`low` — Tier 2 where the evidence is thin, where a moderator applies, or for `stance` in every case. A `low` row states why it is low, in its evidence block, in a few words. A row that cannot say why it is uncertain is a row that has not earned its place.
 
 Drop the row when a Tier 2 reading has no quotable span, or when two moderators apply at once. A dropped row is better than a low-confidence guess, and the output should say which rows were dropped and why.
 
 ## Refusals
 
 No trait claims. Do not say what the writer is like, only what this text does.
+
+No inference about who the writer is. Not their nationality, first language, age, gender, race, education or class. Register, vocabulary and error patterns are facts about a text, never evidence about the person who produced it, and the demographic moderator above is the reason: the relationship between language and any group is exactly what this skill has no basis to read backwards.
 
 No clinical language. Do not name or imply a diagnosis, a disorder, a severity, or a mental-health state.
 

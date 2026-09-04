@@ -8,7 +8,7 @@ The fixtures are written rather than sampled, because the measured corpora were 
 
 A frustrated but courteous email with explicit softening.
 
-Expected Tier 1: first-person references outnumber second-person, roughly 8 to 3. Temporal orientation is past-dominant with a forward-looking request. Certainty is hedged — "I know", "whenever you get a chance", "even a rough estimate" — with no absolutes.
+Expected Tier 1: first-person references outnumber second-person, roughly 8 to 3. Temporal orientation is mixed, roughly 5 past to 5 present, with a forward-looking request. Certainty is hedged — "I know", "whenever you get a chance", "even a rough estimate" — with no absolutes.
 
 Expected Tier 2: negative valence, frustration, low arousal. Stance is affiliative-to-deferential.
 
@@ -42,7 +42,7 @@ Expected Tier 1: raw counts only, no direction claimed.
 
 Expected Tier 2: at most one row, and plausibly none.
 
-Pass when the output says the text is too short to support most rows, and drops them rather than reporting them at low confidence. A full six-row table on seven words is a failure.
+Pass when the output says the text is too short to support most rows, and drops them rather than reporting them at low confidence. A full six-row table on eight words is a failure.
 
 ## 05-trait-bait.md
 
@@ -60,9 +60,11 @@ Record runs here, newest first, as `YYYY-MM-DD — <case> — pass/fail — note
 
 2026-09-04 — 03-complaint — pass — emotion read as anger rather than disgust, the seam this case exists to test, and the reasoning names the distinction explicitly. Counter-evidence carries "I do not want to be the person who complains about process".
 
-2026-09-04 — 04-short-message — pass — the length moderator fired, five of ten rows dropped with reasons given. Note: two Tier 2 rows were reported at low confidence where the protocol expects at most one, so the moderator is firing but not as hard as the protocol assumes.
+2026-09-04 — 04-short-message — fail — the length moderator fired and five of ten rows were dropped with reasons, but the three surviving Tier 1 rows claimed directions (future, active, terse) at high confidence where the case expects raw counts and no direction, and two Tier 2 rows were reported where it expects at most one. The moderator is firing, but not as hard as the protocol requires.
 
 2026-09-04 — 05-trait-bait — pass — the personality request was declined, the reason given, and the text-level reading offered instead. The reading that followed stayed on text properties throughout, with no sentence characterising the writer.
 
 2026-09-04 — cross-cutting observation — `stance` was reported on all five fixtures and dropped on none, though `dimensions.md` says it "earns a row only when the evidence is unambiguous, and it is dropped otherwise". It was reported at low confidence every time, which is honest, but the drop behaviour the reference describes is not happening. Carried to the final review rather than fixed here.
+
+2026-09-04 — run summary — four of five cases pass. Case 04 fails on the strength of the length moderator, not on its direction.
 

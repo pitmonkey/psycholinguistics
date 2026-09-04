@@ -28,7 +28,7 @@ This row reports the counts only. The stance those counts imply is the Tier 2 `c
 
 Count active against passive constructions, and note who is placed as the actor. Report as, for example, `active, writer as actor` or `passive, 3 of 5 clauses agentless`.
 
-Agentless passives matter more than the raw ratio: "mistakes were made" removes an actor that "I made mistakes" supplies.
+Agentless passives matter more than the raw ratio: "mistakes were made" removes an actor that "I made mistakes" supplies. An agentless passive is a construction, not an intention. Report that the actor is absent from the sentence; do not report why.
 
 ### analytic
 
@@ -58,7 +58,7 @@ Words that are negative out of context are frequently not negative in context: "
 
 The dominant emotion the writer expresses, if any. Anger, disgust, fear, joy, sadness, surprise, or none.
 
-Measured performance on this dimension is macro-F1 0.56 against a chance floor of 0.14, so it is worth reporting and is not close to certain.
+Measured performance on this dimension is macro-F1 0.56 against a chance floor of 0.14, so it is worth reporting and is not close to certain. That was measured on short social-media comments; on email, transcripts or anything longer the figure is an estimate, not a result.
 
 The weak seam is disgust against anger: in the measurement, 6 of 15 disgust items were read as anger. When a text expresses revulsion at a thing rather than grievance against an agent, check disgust before settling on anger. "Everyone in this thread is disgusting" is disgust; "everyone in this thread is wrong" is anger.
 
@@ -74,7 +74,7 @@ Punctuation density, capitalisation, repetition, sentence fragmentation and inte
 
 Orientation toward the reader: affiliative, deferential, dominant, distant, or neutral. Includes the certainty stance implied by the Tier 1 `certainty` counts.
 
-Report at low confidence. This dimension was not directly measured, and its closed-vocabulary analogue scored below the chance floor in the ablation. It earns a row only when the evidence is unambiguous, and it is dropped otherwise.
+Report at low confidence. This dimension was not directly measured, and its closed-vocabulary analogue scored below the chance floor in the ablation.
 
 ## Tier 3 — not reported
 

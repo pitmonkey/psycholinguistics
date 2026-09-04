@@ -71,5 +71,4 @@ enough to mislead on their own.
 
 ## Files
 
-`features.py` is the one piece worth keeping — the feature extractor is reusable as the plugin's
-evidence layer. Everything else here is scaffolding for this comparison.
+`features.py` is the one piece worth keeping — the feature extractor is reusable as an evidence layer if that pass is ever wanted. It lives in the local-only spike directory and is not part of the repository. Everything else there is scaffolding for this comparison.

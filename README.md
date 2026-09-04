@@ -18,7 +18,7 @@ Every row it does report describes a text. No row describes a person.
 
 ## Evidence
 
-The engine choice and the dimension tiering come from a three-arm bakeoff run before any of this was designed: `docs/bakeoff-results.md`.
+The engine choice comes from a three-arm bakeoff run before any of this was designed; the tiering follows from it together with what is countable: `docs/bakeoff-results.md`.
 
 The design that follows from it: `docs/superpowers/specs/2026-09-04-psycholinguistics-plugin-design.md`.
 
