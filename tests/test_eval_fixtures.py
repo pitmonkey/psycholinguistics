@@ -1,6 +1,5 @@
 """Fixtures must exist, be non-trivial, and every one of them must be
 covered by a case in the protocol."""
-import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
